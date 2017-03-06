@@ -1,7 +1,13 @@
+@import: 'normalize';
+@import: 'lightgallery.min';
+@import: 'lg-transistion.min';
+
 /********************
 YOUR STYLES
 *******************/
-
+body {
+    background: red;
+}
 figure {
     width: 40%;
     background: teal;

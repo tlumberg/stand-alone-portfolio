@@ -1,5 +1,6 @@
 // YOUR SCRIPTS GO HERE
 
 $("figure").lightGallery({
-    selector: 'a'
+    selector: 'a',
+    mode: 'lg-rotate'
 });
