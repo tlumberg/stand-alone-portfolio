@@ -2,7 +2,10 @@
 YOUR STYLES
 *******************/
 
-
+figure {
+    width: 40%;
+    background: teal;
+}
 
 
 /********************
