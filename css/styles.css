@@ -1,0 +1,94 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Gallery Styling */
+/* Just for Class*/
+figure img {
+    width: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    background: yellow;
+    padding: 20px;
+    width: 30%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.lg-backdrop {
+    background: magenta;
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #333;
+}
+
+/* Captions */
+.caption {
+    display: none;
+}
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+  body {
+       background: red;
+  }
+  
+    figure {
+            width: 100%;
+    }
+    
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: green;
+  }
+    
+    figure {
+            width: 50%;
+    }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: blue;
+  }
+ 
+  /* Main Container */
+ main {
+    margin: 0 auto;
+    width: 95%;
+ }    
+    
+    
+}
