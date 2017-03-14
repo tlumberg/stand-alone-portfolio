@@ -2,5 +2,5 @@
 
 $("figure").lightGallery({
     selector: 'a',
-    mode: 'lg-rotate'
+    mode: 'lg-fade'
 });
