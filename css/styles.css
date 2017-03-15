@@ -61,12 +61,11 @@ main {
 
     .gallery1, .gallery2, .gallery3 {
         width: 100%;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     figure {
         width: 75%;
         display: flex;
-        flex-wrap: nowrap;
     }
     
     img {
